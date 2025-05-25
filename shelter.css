@@ -1,0 +1,164 @@
+.header {
+background-color: #008080;
+color: white;
+padding: 20px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+        }
+        .header h1 {
+            margin: 0;
+            flex-grow: 1;
+        }
+        .header nav {
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+        }
+        .header nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 40px;
+        }
+
+        .header nav a:hover {
+            background-color: #015a5a;
+            transition: background-color 0.3s ease;
+        }
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(mamama.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.banner h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.shelters-container {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 1rem;
+  width: 83%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  scrollbar-width: thin;
+}
+.shelter-card {
+  min-width: 300px;
+  display: flex ;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.shelter-card:hover {
+  transform: scale(1.05);
+}
+
+
+.shelter-content {
+  padding: 1rem;
+  color: black;
+}
+
+.banner2 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(n.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.banner2 h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.banner3 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(saa.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.banner3 h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+footer {
+            background-color: #035757;
+            color: white;
+            padding: 40px 20px;
+            font-family: sans-serif;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .footer-section {
+            flex: 1;
+            min-width: 150px;
+            margin-bottom: 20px;
+        }
+        .footer-section h2 {
+            font-family: sans-serif
+        }
+        .footer-section h3 {
+            font-weight: bold;
+        }
+        .footer-section hr {
+            border: none;
+            border-top: 2px solid white;
+            width: 80%;
+            margin: 10px 0;
+        }
+        .footer-bottom {
+            border-top: 1px solid white;
+            margin-top: 20px;
+            padding-top: 10px;
+            text-align: left;
+            font-size: 0.8em;
+        }
